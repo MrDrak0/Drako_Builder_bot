@@ -1,5 +1,5 @@
 {
-  "name": "streamer-server-setup-bot",
+  "name": "drako-builder",
   "version": "0.1.0",
   "description": "Discord bot that builds a complete streamer Discord server via /setup-full, with /delete-server, /scan, /rules and /ping",
   "type": "module",
