@@ -1,0 +1,25 @@
+{
+  "name": "streamer-server-setup-bot",
+  "version": "0.1.0",
+  "description": "Discord bot that builds a complete streamer Discord server via /setup-full, with /delete-server, /scan, /rules and /ping",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx watch index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
